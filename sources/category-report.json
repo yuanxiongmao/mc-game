@@ -1,0 +1,3353 @@
+{
+  "metadata": {
+    "edition": "Java",
+    "gameVersion": "26.3",
+    "blockCount": 342,
+    "versionCount": 25,
+    "updated": "2026-10-19",
+    "source": "Minecraft runtime registry + mcbookshelf/mcdata + Minecraft Wiki",
+    "versionPolicy": "按类别最早成员的主版本归类，不显示快照或小版本",
+    "rawBlockCount": 1286,
+    "mode": "categories"
+  },
+  "categories": [
+    {
+      "id": "button",
+      "name": "按钮",
+      "members": [
+        "acacia_button",
+        "bamboo_button",
+        "birch_button",
+        "cherry_button",
+        "crimson_button",
+        "dark_oak_button",
+        "jungle_button",
+        "mangrove_button",
+        "oak_button",
+        "pale_oak_button",
+        "polished_blackstone_button",
+        "poplar_button",
+        "spruce_button",
+        "stone_button",
+        "warped_button"
+      ]
+    },
+    {
+      "id": "door",
+      "name": "门",
+      "members": [
+        "acacia_door",
+        "bamboo_door",
+        "birch_door",
+        "cherry_door",
+        "copper_door",
+        "crimson_door",
+        "dark_oak_door",
+        "exposed_copper_door",
+        "iron_door",
+        "jungle_door",
+        "mangrove_door",
+        "oak_door",
+        "oxidized_copper_door",
+        "pale_oak_door",
+        "poplar_door",
+        "spruce_door",
+        "warped_door",
+        "waxed_copper_door",
+        "waxed_exposed_copper_door",
+        "waxed_oxidized_copper_door",
+        "waxed_weathered_copper_door",
+        "weathered_copper_door"
+      ]
+    },
+    {
+      "id": "fence",
+      "name": "栅栏",
+      "members": [
+        "acacia_fence",
+        "bamboo_fence",
+        "birch_fence",
+        "cherry_fence",
+        "crimson_fence",
+        "dark_oak_fence",
+        "jungle_fence",
+        "mangrove_fence",
+        "nether_brick_fence",
+        "oak_fence",
+        "pale_oak_fence",
+        "poplar_fence",
+        "spruce_fence",
+        "warped_fence"
+      ]
+    },
+    {
+      "id": "fence_gate",
+      "name": "栅栏门",
+      "members": [
+        "acacia_fence_gate",
+        "bamboo_fence_gate",
+        "birch_fence_gate",
+        "cherry_fence_gate",
+        "crimson_fence_gate",
+        "dark_oak_fence_gate",
+        "jungle_fence_gate",
+        "mangrove_fence_gate",
+        "oak_fence_gate",
+        "pale_oak_fence_gate",
+        "poplar_fence_gate",
+        "spruce_fence_gate",
+        "warped_fence_gate"
+      ]
+    },
+    {
+      "id": "hanging_sign",
+      "name": "悬挂式告示牌",
+      "members": [
+        "acacia_hanging_sign",
+        "acacia_wall_hanging_sign",
+        "bamboo_hanging_sign",
+        "bamboo_wall_hanging_sign",
+        "birch_hanging_sign",
+        "birch_wall_hanging_sign",
+        "cherry_hanging_sign",
+        "cherry_wall_hanging_sign",
+        "crimson_hanging_sign",
+        "crimson_wall_hanging_sign",
+        "dark_oak_hanging_sign",
+        "dark_oak_wall_hanging_sign",
+        "jungle_hanging_sign",
+        "jungle_wall_hanging_sign",
+        "mangrove_hanging_sign",
+        "mangrove_wall_hanging_sign",
+        "oak_hanging_sign",
+        "oak_wall_hanging_sign",
+        "pale_oak_hanging_sign",
+        "pale_oak_wall_hanging_sign",
+        "poplar_hanging_sign",
+        "poplar_wall_hanging_sign",
+        "spruce_hanging_sign",
+        "spruce_wall_hanging_sign",
+        "warped_hanging_sign",
+        "warped_wall_hanging_sign"
+      ]
+    },
+    {
+      "id": "leaves",
+      "name": "树叶",
+      "members": [
+        "acacia_leaves",
+        "azalea_leaves",
+        "birch_leaves",
+        "cherry_leaves",
+        "dark_oak_leaves",
+        "flowering_azalea_leaves",
+        "jungle_leaves",
+        "mangrove_leaves",
+        "oak_leaves",
+        "orange_poplar_leaves",
+        "pale_oak_leaves",
+        "red_poplar_leaves",
+        "spruce_leaves",
+        "yellow_poplar_leaves"
+      ]
+    },
+    {
+      "id": "log",
+      "name": "原木",
+      "members": [
+        "acacia_log",
+        "acacia_wood",
+        "bamboo_block",
+        "birch_log",
+        "birch_wood",
+        "cherry_log",
+        "cherry_wood",
+        "crimson_hyphae",
+        "crimson_stem",
+        "dark_oak_log",
+        "dark_oak_wood",
+        "jungle_log",
+        "jungle_wood",
+        "mangrove_log",
+        "mangrove_wood",
+        "oak_log",
+        "oak_wood",
+        "pale_oak_log",
+        "pale_oak_wood",
+        "poplar_log",
+        "poplar_wood",
+        "spruce_log",
+        "spruce_wood",
+        "stripped_acacia_log",
+        "stripped_acacia_wood",
+        "stripped_bamboo_block",
+        "stripped_birch_log",
+        "stripped_birch_wood",
+        "stripped_cherry_log",
+        "stripped_cherry_wood",
+        "stripped_crimson_hyphae",
+        "stripped_crimson_stem",
+        "stripped_dark_oak_log",
+        "stripped_dark_oak_wood",
+        "stripped_jungle_log",
+        "stripped_jungle_wood",
+        "stripped_mangrove_log",
+        "stripped_mangrove_wood",
+        "stripped_oak_log",
+        "stripped_oak_wood",
+        "stripped_pale_oak_log",
+        "stripped_pale_oak_wood",
+        "stripped_poplar_log",
+        "stripped_poplar_wood",
+        "stripped_spruce_log",
+        "stripped_spruce_wood",
+        "stripped_warped_hyphae",
+        "stripped_warped_stem",
+        "warped_hyphae",
+        "warped_stem"
+      ]
+    },
+    {
+      "id": "planks",
+      "name": "木板",
+      "members": [
+        "acacia_planks",
+        "bamboo_mosaic",
+        "bamboo_planks",
+        "birch_planks",
+        "cherry_planks",
+        "crimson_planks",
+        "dark_oak_planks",
+        "jungle_planks",
+        "mangrove_planks",
+        "oak_planks",
+        "pale_oak_planks",
+        "poplar_planks",
+        "spruce_planks",
+        "warped_planks"
+      ]
+    },
+    {
+      "id": "pressure_plate",
+      "name": "压力板",
+      "members": [
+        "acacia_pressure_plate",
+        "bamboo_pressure_plate",
+        "birch_pressure_plate",
+        "cherry_pressure_plate",
+        "crimson_pressure_plate",
+        "dark_oak_pressure_plate",
+        "heavy_weighted_pressure_plate",
+        "jungle_pressure_plate",
+        "light_weighted_pressure_plate",
+        "mangrove_pressure_plate",
+        "oak_pressure_plate",
+        "pale_oak_pressure_plate",
+        "polished_blackstone_pressure_plate",
+        "poplar_pressure_plate",
+        "spruce_pressure_plate",
+        "stone_pressure_plate",
+        "warped_pressure_plate"
+      ]
+    },
+    {
+      "id": "sapling",
+      "name": "树苗",
+      "members": [
+        "acacia_sapling",
+        "bamboo_sapling",
+        "birch_sapling",
+        "cherry_sapling",
+        "dark_oak_sapling",
+        "jungle_sapling",
+        "mangrove_propagule",
+        "oak_sapling",
+        "pale_oak_sapling",
+        "poplar_sapling",
+        "potted_acacia_sapling",
+        "potted_birch_sapling",
+        "potted_cherry_sapling",
+        "potted_dark_oak_sapling",
+        "potted_jungle_sapling",
+        "potted_mangrove_propagule",
+        "potted_oak_sapling",
+        "potted_pale_oak_sapling",
+        "potted_poplar_sapling",
+        "potted_spruce_sapling",
+        "spruce_sapling"
+      ]
+    },
+    {
+      "id": "shelf",
+      "name": "置物架",
+      "members": [
+        "acacia_shelf",
+        "bamboo_shelf",
+        "birch_shelf",
+        "cherry_shelf",
+        "crimson_shelf",
+        "dark_oak_shelf",
+        "jungle_shelf",
+        "mangrove_shelf",
+        "oak_shelf",
+        "pale_oak_shelf",
+        "poplar_shelf",
+        "spruce_shelf",
+        "warped_shelf"
+      ]
+    },
+    {
+      "id": "sign",
+      "name": "告示牌",
+      "members": [
+        "acacia_sign",
+        "acacia_wall_sign",
+        "bamboo_sign",
+        "bamboo_wall_sign",
+        "birch_sign",
+        "birch_wall_sign",
+        "cherry_sign",
+        "cherry_wall_sign",
+        "crimson_sign",
+        "crimson_wall_sign",
+        "dark_oak_sign",
+        "dark_oak_wall_sign",
+        "jungle_sign",
+        "jungle_wall_sign",
+        "mangrove_sign",
+        "mangrove_wall_sign",
+        "oak_sign",
+        "oak_wall_sign",
+        "pale_oak_sign",
+        "pale_oak_wall_sign",
+        "poplar_sign",
+        "poplar_wall_sign",
+        "spruce_sign",
+        "spruce_wall_sign",
+        "warped_sign",
+        "warped_wall_sign"
+      ]
+    },
+    {
+      "id": "stairs",
+      "name": "楼梯",
+      "members": [
+        "acacia_slab",
+        "acacia_stairs",
+        "andesite_slab",
+        "andesite_stairs",
+        "bamboo_mosaic_slab",
+        "bamboo_mosaic_stairs",
+        "bamboo_slab",
+        "bamboo_stairs",
+        "birch_slab",
+        "birch_stairs",
+        "black_concrete_slab",
+        "black_concrete_stairs",
+        "black_wool_slab",
+        "black_wool_stairs",
+        "blackstone_slab",
+        "blackstone_stairs",
+        "blue_concrete_slab",
+        "blue_concrete_stairs",
+        "blue_wool_slab",
+        "blue_wool_stairs",
+        "brick_slab",
+        "brick_stairs",
+        "brown_concrete_slab",
+        "brown_concrete_stairs",
+        "brown_wool_slab",
+        "brown_wool_stairs",
+        "cherry_slab",
+        "cherry_stairs",
+        "cinnabar_brick_slab",
+        "cinnabar_brick_stairs",
+        "cinnabar_slab",
+        "cinnabar_stairs",
+        "cobbled_deepslate_slab",
+        "cobbled_deepslate_stairs",
+        "cobblestone_slab",
+        "cobblestone_stairs",
+        "crimson_slab",
+        "crimson_stairs",
+        "cut_copper_slab",
+        "cut_copper_stairs",
+        "cut_red_sandstone_slab",
+        "cut_sandstone_slab",
+        "cyan_concrete_slab",
+        "cyan_concrete_stairs",
+        "cyan_wool_slab",
+        "cyan_wool_stairs",
+        "dark_oak_slab",
+        "dark_oak_stairs",
+        "dark_prismarine_slab",
+        "dark_prismarine_stairs",
+        "deepslate_brick_slab",
+        "deepslate_brick_stairs",
+        "deepslate_tile_slab",
+        "deepslate_tile_stairs",
+        "diorite_slab",
+        "diorite_stairs",
+        "end_stone_brick_slab",
+        "end_stone_brick_stairs",
+        "exposed_cut_copper_slab",
+        "exposed_cut_copper_stairs",
+        "granite_slab",
+        "granite_stairs",
+        "gray_concrete_slab",
+        "gray_concrete_stairs",
+        "gray_wool_slab",
+        "gray_wool_stairs",
+        "green_concrete_slab",
+        "green_concrete_stairs",
+        "green_wool_slab",
+        "green_wool_stairs",
+        "jungle_slab",
+        "jungle_stairs",
+        "light_blue_concrete_slab",
+        "light_blue_concrete_stairs",
+        "light_blue_wool_slab",
+        "light_blue_wool_stairs",
+        "light_gray_concrete_slab",
+        "light_gray_concrete_stairs",
+        "light_gray_wool_slab",
+        "light_gray_wool_stairs",
+        "lime_concrete_slab",
+        "lime_concrete_stairs",
+        "lime_wool_slab",
+        "lime_wool_stairs",
+        "magenta_concrete_slab",
+        "magenta_concrete_stairs",
+        "magenta_wool_slab",
+        "magenta_wool_stairs",
+        "mangrove_slab",
+        "mangrove_stairs",
+        "mossy_cobblestone_slab",
+        "mossy_cobblestone_stairs",
+        "mossy_stone_brick_slab",
+        "mossy_stone_brick_stairs",
+        "mud_brick_slab",
+        "mud_brick_stairs",
+        "nether_brick_slab",
+        "nether_brick_stairs",
+        "oak_slab",
+        "oak_stairs",
+        "orange_concrete_slab",
+        "orange_concrete_stairs",
+        "orange_wool_slab",
+        "orange_wool_stairs",
+        "oxidized_cut_copper_slab",
+        "oxidized_cut_copper_stairs",
+        "pale_oak_slab",
+        "pale_oak_stairs",
+        "petrified_oak_slab",
+        "pink_concrete_slab",
+        "pink_concrete_stairs",
+        "pink_wool_slab",
+        "pink_wool_stairs",
+        "polished_andesite_slab",
+        "polished_andesite_stairs",
+        "polished_blackstone_brick_slab",
+        "polished_blackstone_brick_stairs",
+        "polished_blackstone_slab",
+        "polished_blackstone_stairs",
+        "polished_cinnabar_slab",
+        "polished_cinnabar_stairs",
+        "polished_deepslate_slab",
+        "polished_deepslate_stairs",
+        "polished_diorite_slab",
+        "polished_diorite_stairs",
+        "polished_granite_slab",
+        "polished_granite_stairs",
+        "polished_sulfur_slab",
+        "polished_sulfur_stairs",
+        "polished_tuff_slab",
+        "polished_tuff_stairs",
+        "poplar_slab",
+        "poplar_stairs",
+        "prismarine_brick_slab",
+        "prismarine_brick_stairs",
+        "prismarine_slab",
+        "prismarine_stairs",
+        "purple_concrete_slab",
+        "purple_concrete_stairs",
+        "purple_wool_slab",
+        "purple_wool_stairs",
+        "purpur_slab",
+        "purpur_stairs",
+        "quartz_slab",
+        "quartz_stairs",
+        "red_concrete_slab",
+        "red_concrete_stairs",
+        "red_nether_brick_slab",
+        "red_nether_brick_stairs",
+        "red_sandstone_slab",
+        "red_sandstone_stairs",
+        "red_wool_slab",
+        "red_wool_stairs",
+        "resin_brick_slab",
+        "resin_brick_stairs",
+        "sandstone_slab",
+        "sandstone_stairs",
+        "smooth_quartz_slab",
+        "smooth_quartz_stairs",
+        "smooth_red_sandstone_slab",
+        "smooth_red_sandstone_stairs",
+        "smooth_sandstone_slab",
+        "smooth_sandstone_stairs",
+        "smooth_stone_slab",
+        "spruce_slab",
+        "spruce_stairs",
+        "stone_brick_slab",
+        "stone_brick_stairs",
+        "stone_slab",
+        "stone_stairs",
+        "sulfur_brick_slab",
+        "sulfur_brick_stairs",
+        "sulfur_slab",
+        "sulfur_stairs",
+        "tuff_brick_slab",
+        "tuff_brick_stairs",
+        "tuff_slab",
+        "tuff_stairs",
+        "warped_slab",
+        "warped_stairs",
+        "waxed_cut_copper_slab",
+        "waxed_cut_copper_stairs",
+        "waxed_exposed_cut_copper_slab",
+        "waxed_exposed_cut_copper_stairs",
+        "waxed_oxidized_cut_copper_slab",
+        "waxed_oxidized_cut_copper_stairs",
+        "waxed_weathered_cut_copper_slab",
+        "waxed_weathered_cut_copper_stairs",
+        "weathered_cut_copper_slab",
+        "weathered_cut_copper_stairs",
+        "white_concrete_slab",
+        "white_concrete_stairs",
+        "white_wool_slab",
+        "white_wool_stairs",
+        "yellow_concrete_slab",
+        "yellow_concrete_stairs",
+        "yellow_wool_slab",
+        "yellow_wool_stairs"
+      ]
+    },
+    {
+      "id": "trapdoor",
+      "name": "活板门",
+      "members": [
+        "acacia_trapdoor",
+        "bamboo_trapdoor",
+        "birch_trapdoor",
+        "cherry_trapdoor",
+        "copper_trapdoor",
+        "crimson_trapdoor",
+        "dark_oak_trapdoor",
+        "exposed_copper_trapdoor",
+        "iron_trapdoor",
+        "jungle_trapdoor",
+        "mangrove_trapdoor",
+        "oak_trapdoor",
+        "oxidized_copper_trapdoor",
+        "pale_oak_trapdoor",
+        "poplar_trapdoor",
+        "spruce_trapdoor",
+        "warped_trapdoor",
+        "waxed_copper_trapdoor",
+        "waxed_exposed_copper_trapdoor",
+        "waxed_oxidized_copper_trapdoor",
+        "waxed_weathered_copper_trapdoor",
+        "weathered_copper_trapdoor"
+      ]
+    },
+    {
+      "id": "activator_rail",
+      "name": "激活铁轨",
+      "members": [
+        "activator_rail"
+      ]
+    },
+    {
+      "id": "air",
+      "name": "空气",
+      "members": [
+        "air",
+        "cave_air",
+        "void_air"
+      ]
+    },
+    {
+      "id": "flower",
+      "name": "花",
+      "members": [
+        "allium",
+        "azalea",
+        "azure_bluet",
+        "blue_orchid",
+        "cactus_flower",
+        "closed_eyeblossom",
+        "cornflower",
+        "dandelion",
+        "flowering_azalea",
+        "golden_dandelion",
+        "lilac",
+        "lily_of_the_valley",
+        "open_eyeblossom",
+        "orange_tulip",
+        "oxeye_daisy",
+        "peony",
+        "pink_petals",
+        "pink_tulip",
+        "pitcher_crop",
+        "pitcher_plant",
+        "poppy",
+        "potted_allium",
+        "potted_azalea_bush",
+        "potted_azure_bluet",
+        "potted_blue_orchid",
+        "potted_closed_eyeblossom",
+        "potted_cornflower",
+        "potted_dandelion",
+        "potted_flowering_azalea_bush",
+        "potted_golden_dandelion",
+        "potted_lily_of_the_valley",
+        "potted_open_eyeblossom",
+        "potted_orange_tulip",
+        "potted_oxeye_daisy",
+        "potted_pink_tulip",
+        "potted_poppy",
+        "potted_red_tulip",
+        "potted_torchflower",
+        "potted_white_tulip",
+        "potted_wither_rose",
+        "red_tulip",
+        "rose_bush",
+        "spore_blossom",
+        "sunflower",
+        "torchflower",
+        "torchflower_crop",
+        "white_tulip",
+        "wildflowers",
+        "wither_rose"
+      ]
+    },
+    {
+      "id": "amethyst_block",
+      "name": "紫水晶块",
+      "members": [
+        "amethyst_block"
+      ]
+    },
+    {
+      "id": "amethyst_cluster",
+      "name": "紫水晶簇",
+      "members": [
+        "amethyst_cluster"
+      ]
+    },
+    {
+      "id": "ancient_debris",
+      "name": "远古残骸",
+      "members": [
+        "ancient_debris"
+      ]
+    },
+    {
+      "id": "andesite",
+      "name": "安山岩",
+      "members": [
+        "andesite"
+      ]
+    },
+    {
+      "id": "wall",
+      "name": "墙",
+      "members": [
+        "andesite_wall",
+        "blackstone_wall",
+        "brick_wall",
+        "cinnabar_brick_wall",
+        "cinnabar_wall",
+        "cobbled_deepslate_wall",
+        "cobblestone_wall",
+        "deepslate_brick_wall",
+        "deepslate_tile_wall",
+        "diorite_wall",
+        "end_stone_brick_wall",
+        "granite_wall",
+        "mossy_cobblestone_wall",
+        "mossy_stone_brick_wall",
+        "mud_brick_wall",
+        "nether_brick_wall",
+        "polished_blackstone_brick_wall",
+        "polished_blackstone_wall",
+        "polished_cinnabar_wall",
+        "polished_deepslate_wall",
+        "polished_sulfur_wall",
+        "polished_tuff_wall",
+        "prismarine_wall",
+        "red_nether_brick_wall",
+        "red_sandstone_wall",
+        "resin_brick_wall",
+        "sandstone_wall",
+        "stone_brick_wall",
+        "sulfur_brick_wall",
+        "sulfur_wall",
+        "tuff_brick_wall",
+        "tuff_wall"
+      ]
+    },
+    {
+      "id": "anvil",
+      "name": "铁砧",
+      "members": [
+        "anvil"
+      ]
+    },
+    {
+      "id": "attached_melon_stem",
+      "name": "结果的西瓜茎",
+      "members": [
+        "attached_melon_stem"
+      ]
+    },
+    {
+      "id": "attached_pumpkin_stem",
+      "name": "结果的南瓜茎",
+      "members": [
+        "attached_pumpkin_stem"
+      ]
+    },
+    {
+      "id": "bamboo",
+      "name": "竹子",
+      "members": [
+        "bamboo",
+        "potted_bamboo"
+      ]
+    },
+    {
+      "id": "barrel",
+      "name": "木桶",
+      "members": [
+        "barrel"
+      ]
+    },
+    {
+      "id": "barrier",
+      "name": "屏障",
+      "members": [
+        "barrier"
+      ]
+    },
+    {
+      "id": "basalt",
+      "name": "玄武岩",
+      "members": [
+        "basalt"
+      ]
+    },
+    {
+      "id": "beacon",
+      "name": "信标",
+      "members": [
+        "beacon"
+      ]
+    },
+    {
+      "id": "bedrock",
+      "name": "基岩",
+      "members": [
+        "bedrock"
+      ]
+    },
+    {
+      "id": "bee_nest",
+      "name": "蜂巢",
+      "members": [
+        "bee_nest"
+      ]
+    },
+    {
+      "id": "beehive",
+      "name": "蜂箱",
+      "members": [
+        "beehive"
+      ]
+    },
+    {
+      "id": "beetroots",
+      "name": "甜菜根",
+      "members": [
+        "beetroots"
+      ]
+    },
+    {
+      "id": "bell",
+      "name": "钟",
+      "members": [
+        "bell"
+      ]
+    },
+    {
+      "id": "big_dripleaf",
+      "name": "大型垂滴叶",
+      "members": [
+        "big_dripleaf"
+      ]
+    },
+    {
+      "id": "big_dripleaf_stem",
+      "name": "大型垂滴叶茎",
+      "members": [
+        "big_dripleaf_stem"
+      ]
+    },
+    {
+      "id": "banner",
+      "name": "旗帜",
+      "members": [
+        "black_banner",
+        "black_wall_banner",
+        "blue_banner",
+        "blue_wall_banner",
+        "brown_banner",
+        "brown_wall_banner",
+        "cyan_banner",
+        "cyan_wall_banner",
+        "gray_banner",
+        "gray_wall_banner",
+        "green_banner",
+        "green_wall_banner",
+        "light_blue_banner",
+        "light_blue_wall_banner",
+        "light_gray_banner",
+        "light_gray_wall_banner",
+        "lime_banner",
+        "lime_wall_banner",
+        "magenta_banner",
+        "magenta_wall_banner",
+        "orange_banner",
+        "orange_wall_banner",
+        "pink_banner",
+        "pink_wall_banner",
+        "purple_banner",
+        "purple_wall_banner",
+        "red_banner",
+        "red_wall_banner",
+        "white_banner",
+        "white_wall_banner",
+        "yellow_banner",
+        "yellow_wall_banner"
+      ]
+    },
+    {
+      "id": "bed",
+      "name": "床",
+      "members": [
+        "black_bed",
+        "blue_bed",
+        "brown_bed",
+        "cyan_bed",
+        "gray_bed",
+        "green_bed",
+        "light_blue_bed",
+        "light_gray_bed",
+        "lime_bed",
+        "magenta_bed",
+        "orange_bed",
+        "pink_bed",
+        "purple_bed",
+        "red_bed",
+        "white_bed",
+        "yellow_bed"
+      ]
+    },
+    {
+      "id": "candle",
+      "name": "蜡烛",
+      "members": [
+        "black_candle",
+        "blue_candle",
+        "brown_candle",
+        "candle",
+        "cyan_candle",
+        "gray_candle",
+        "green_candle",
+        "light_blue_candle",
+        "light_gray_candle",
+        "lime_candle",
+        "magenta_candle",
+        "orange_candle",
+        "pink_candle",
+        "purple_candle",
+        "red_candle",
+        "white_candle",
+        "yellow_candle"
+      ]
+    },
+    {
+      "id": "candle_cake",
+      "name": "插上蜡烛的蛋糕",
+      "members": [
+        "black_candle_cake",
+        "blue_candle_cake",
+        "brown_candle_cake",
+        "candle_cake",
+        "cyan_candle_cake",
+        "gray_candle_cake",
+        "green_candle_cake",
+        "light_blue_candle_cake",
+        "light_gray_candle_cake",
+        "lime_candle_cake",
+        "magenta_candle_cake",
+        "orange_candle_cake",
+        "pink_candle_cake",
+        "purple_candle_cake",
+        "red_candle_cake",
+        "white_candle_cake",
+        "yellow_candle_cake"
+      ]
+    },
+    {
+      "id": "carpet",
+      "name": "地毯",
+      "members": [
+        "black_carpet",
+        "blue_carpet",
+        "brown_carpet",
+        "cyan_carpet",
+        "gray_carpet",
+        "green_carpet",
+        "light_blue_carpet",
+        "light_gray_carpet",
+        "lime_carpet",
+        "magenta_carpet",
+        "orange_carpet",
+        "pink_carpet",
+        "purple_carpet",
+        "red_carpet",
+        "white_carpet",
+        "yellow_carpet"
+      ]
+    },
+    {
+      "id": "concrete",
+      "name": "混凝土",
+      "members": [
+        "black_concrete",
+        "blue_concrete",
+        "brown_concrete",
+        "cyan_concrete",
+        "gray_concrete",
+        "green_concrete",
+        "light_blue_concrete",
+        "light_gray_concrete",
+        "lime_concrete",
+        "magenta_concrete",
+        "orange_concrete",
+        "pink_concrete",
+        "purple_concrete",
+        "red_concrete",
+        "white_concrete",
+        "yellow_concrete"
+      ]
+    },
+    {
+      "id": "concrete_powder",
+      "name": "混凝土粉末",
+      "members": [
+        "black_concrete_powder",
+        "blue_concrete_powder",
+        "brown_concrete_powder",
+        "cyan_concrete_powder",
+        "gray_concrete_powder",
+        "green_concrete_powder",
+        "light_blue_concrete_powder",
+        "light_gray_concrete_powder",
+        "lime_concrete_powder",
+        "magenta_concrete_powder",
+        "orange_concrete_powder",
+        "pink_concrete_powder",
+        "purple_concrete_powder",
+        "red_concrete_powder",
+        "white_concrete_powder",
+        "yellow_concrete_powder"
+      ]
+    },
+    {
+      "id": "terracotta",
+      "name": "陶瓦",
+      "members": [
+        "black_glazed_terracotta",
+        "black_terracotta",
+        "blue_glazed_terracotta",
+        "blue_terracotta",
+        "brown_glazed_terracotta",
+        "brown_terracotta",
+        "cyan_glazed_terracotta",
+        "cyan_terracotta",
+        "gray_glazed_terracotta",
+        "gray_terracotta",
+        "green_glazed_terracotta",
+        "green_terracotta",
+        "light_blue_glazed_terracotta",
+        "light_blue_terracotta",
+        "light_gray_glazed_terracotta",
+        "light_gray_terracotta",
+        "lime_glazed_terracotta",
+        "lime_terracotta",
+        "magenta_glazed_terracotta",
+        "magenta_terracotta",
+        "orange_glazed_terracotta",
+        "orange_terracotta",
+        "pink_glazed_terracotta",
+        "pink_terracotta",
+        "purple_glazed_terracotta",
+        "purple_terracotta",
+        "red_glazed_terracotta",
+        "red_terracotta",
+        "terracotta",
+        "white_glazed_terracotta",
+        "white_terracotta",
+        "yellow_glazed_terracotta",
+        "yellow_terracotta"
+      ]
+    },
+    {
+      "id": "shulker_box",
+      "name": "潜影盒",
+      "members": [
+        "black_shulker_box",
+        "blue_shulker_box",
+        "brown_shulker_box",
+        "cyan_shulker_box",
+        "gray_shulker_box",
+        "green_shulker_box",
+        "light_blue_shulker_box",
+        "light_gray_shulker_box",
+        "lime_shulker_box",
+        "magenta_shulker_box",
+        "orange_shulker_box",
+        "pink_shulker_box",
+        "purple_shulker_box",
+        "red_shulker_box",
+        "shulker_box",
+        "white_shulker_box",
+        "yellow_shulker_box"
+      ]
+    },
+    {
+      "id": "glass",
+      "name": "玻璃",
+      "members": [
+        "black_stained_glass",
+        "blue_stained_glass",
+        "brown_stained_glass",
+        "cyan_stained_glass",
+        "glass",
+        "gray_stained_glass",
+        "green_stained_glass",
+        "light_blue_stained_glass",
+        "light_gray_stained_glass",
+        "lime_stained_glass",
+        "magenta_stained_glass",
+        "orange_stained_glass",
+        "pink_stained_glass",
+        "purple_stained_glass",
+        "red_stained_glass",
+        "white_stained_glass",
+        "yellow_stained_glass"
+      ]
+    },
+    {
+      "id": "glass_pane",
+      "name": "玻璃板",
+      "members": [
+        "black_stained_glass_pane",
+        "blue_stained_glass_pane",
+        "brown_stained_glass_pane",
+        "cyan_stained_glass_pane",
+        "glass_pane",
+        "gray_stained_glass_pane",
+        "green_stained_glass_pane",
+        "light_blue_stained_glass_pane",
+        "light_gray_stained_glass_pane",
+        "lime_stained_glass_pane",
+        "magenta_stained_glass_pane",
+        "orange_stained_glass_pane",
+        "pink_stained_glass_pane",
+        "purple_stained_glass_pane",
+        "red_stained_glass_pane",
+        "white_stained_glass_pane",
+        "yellow_stained_glass_pane"
+      ]
+    },
+    {
+      "id": "wool",
+      "name": "羊毛",
+      "members": [
+        "black_wool",
+        "blue_wool",
+        "brown_wool",
+        "cyan_wool",
+        "gray_wool",
+        "green_wool",
+        "light_blue_wool",
+        "light_gray_wool",
+        "lime_wool",
+        "magenta_wool",
+        "orange_wool",
+        "pink_wool",
+        "purple_wool",
+        "red_wool",
+        "white_wool",
+        "yellow_wool"
+      ]
+    },
+    {
+      "id": "blackstone",
+      "name": "黑石",
+      "members": [
+        "blackstone"
+      ]
+    },
+    {
+      "id": "blast_furnace",
+      "name": "高炉",
+      "members": [
+        "blast_furnace"
+      ]
+    },
+    {
+      "id": "blue_ice",
+      "name": "蓝冰",
+      "members": [
+        "blue_ice"
+      ]
+    },
+    {
+      "id": "bone_block",
+      "name": "骨块",
+      "members": [
+        "bone_block"
+      ]
+    },
+    {
+      "id": "bookshelf",
+      "name": "书架",
+      "members": [
+        "bookshelf",
+        "chiseled_bookshelf"
+      ]
+    },
+    {
+      "id": "coral",
+      "name": "珊瑚",
+      "members": [
+        "brain_coral",
+        "bubble_coral",
+        "dead_brain_coral",
+        "dead_bubble_coral",
+        "dead_fire_coral",
+        "dead_horn_coral",
+        "dead_tube_coral",
+        "fire_coral",
+        "horn_coral",
+        "tube_coral"
+      ]
+    },
+    {
+      "id": "coral_block",
+      "name": "珊瑚块",
+      "members": [
+        "brain_coral_block",
+        "bubble_coral_block",
+        "dead_brain_coral_block",
+        "dead_bubble_coral_block",
+        "dead_fire_coral_block",
+        "dead_horn_coral_block",
+        "dead_tube_coral_block",
+        "fire_coral_block",
+        "horn_coral_block",
+        "tube_coral_block"
+      ]
+    },
+    {
+      "id": "coral_fan",
+      "name": "珊瑚扇",
+      "members": [
+        "brain_coral_fan",
+        "brain_coral_wall_fan",
+        "bubble_coral_fan",
+        "bubble_coral_wall_fan",
+        "dead_brain_coral_fan",
+        "dead_brain_coral_wall_fan",
+        "dead_bubble_coral_fan",
+        "dead_bubble_coral_wall_fan",
+        "dead_fire_coral_fan",
+        "dead_fire_coral_wall_fan",
+        "dead_horn_coral_fan",
+        "dead_horn_coral_wall_fan",
+        "dead_tube_coral_fan",
+        "dead_tube_coral_wall_fan",
+        "fire_coral_fan",
+        "fire_coral_wall_fan",
+        "horn_coral_fan",
+        "horn_coral_wall_fan",
+        "tube_coral_fan",
+        "tube_coral_wall_fan"
+      ]
+    },
+    {
+      "id": "brewing_stand",
+      "name": "酿造台",
+      "members": [
+        "brewing_stand"
+      ]
+    },
+    {
+      "id": "bricks",
+      "name": "红砖块",
+      "members": [
+        "bricks"
+      ]
+    },
+    {
+      "id": "brown_mushroom",
+      "name": "棕色蘑菇",
+      "members": [
+        "brown_mushroom",
+        "potted_brown_mushroom"
+      ]
+    },
+    {
+      "id": "brown_mushroom_block",
+      "name": "棕色蘑菇方块",
+      "members": [
+        "brown_mushroom_block"
+      ]
+    },
+    {
+      "id": "bubble_column",
+      "name": "气泡柱",
+      "members": [
+        "bubble_column"
+      ]
+    },
+    {
+      "id": "budding_amethyst",
+      "name": "紫水晶母岩",
+      "members": [
+        "budding_amethyst"
+      ]
+    },
+    {
+      "id": "bush",
+      "name": "灌木丛",
+      "members": [
+        "bush"
+      ]
+    },
+    {
+      "id": "cactus",
+      "name": "仙人掌",
+      "members": [
+        "cactus",
+        "potted_cactus"
+      ]
+    },
+    {
+      "id": "cake",
+      "name": "蛋糕",
+      "members": [
+        "cake"
+      ]
+    },
+    {
+      "id": "calcite",
+      "name": "方解石",
+      "members": [
+        "calcite"
+      ]
+    },
+    {
+      "id": "calibrated_sculk_sensor",
+      "name": "校频幽匿感测体",
+      "members": [
+        "calibrated_sculk_sensor"
+      ]
+    },
+    {
+      "id": "campfire",
+      "name": "营火",
+      "members": [
+        "campfire"
+      ]
+    },
+    {
+      "id": "carrots",
+      "name": "胡萝卜",
+      "members": [
+        "carrots"
+      ]
+    },
+    {
+      "id": "cartography_table",
+      "name": "制图台",
+      "members": [
+        "cartography_table"
+      ]
+    },
+    {
+      "id": "carved_pumpkin",
+      "name": "雕刻南瓜",
+      "members": [
+        "carved_pumpkin"
+      ]
+    },
+    {
+      "id": "cauldron",
+      "name": "炼药锅",
+      "members": [
+        "cauldron"
+      ]
+    },
+    {
+      "id": "cave_vines",
+      "name": "洞穴藤蔓",
+      "members": [
+        "cave_vines"
+      ]
+    },
+    {
+      "id": "cave_vines_plant",
+      "name": "洞穴藤蔓植株",
+      "members": [
+        "cave_vines_plant"
+      ]
+    },
+    {
+      "id": "command_block",
+      "name": "命令方块",
+      "members": [
+        "chain_command_block",
+        "command_block",
+        "repeating_command_block"
+      ]
+    },
+    {
+      "id": "chest",
+      "name": "箱子",
+      "members": [
+        "chest"
+      ]
+    },
+    {
+      "id": "chipped_anvil",
+      "name": "开裂的铁砧",
+      "members": [
+        "chipped_anvil"
+      ]
+    },
+    {
+      "id": "cinnabar",
+      "name": "朱砂",
+      "members": [
+        "chiseled_cinnabar",
+        "cinnabar",
+        "cinnabar_bricks",
+        "polished_cinnabar"
+      ]
+    },
+    {
+      "id": "copper_block",
+      "name": "铜块",
+      "members": [
+        "chiseled_copper",
+        "copper_block",
+        "exposed_chiseled_copper",
+        "exposed_copper",
+        "oxidized_chiseled_copper",
+        "oxidized_copper",
+        "waxed_chiseled_copper",
+        "waxed_copper_block",
+        "waxed_exposed_chiseled_copper",
+        "waxed_exposed_copper",
+        "waxed_oxidized_chiseled_copper",
+        "waxed_oxidized_copper",
+        "waxed_weathered_chiseled_copper",
+        "waxed_weathered_copper",
+        "weathered_chiseled_copper",
+        "weathered_copper"
+      ]
+    },
+    {
+      "id": "deepslate",
+      "name": "深板岩",
+      "members": [
+        "chiseled_deepslate",
+        "deepslate"
+      ]
+    },
+    {
+      "id": "stone_bricks",
+      "name": "石砖",
+      "members": [
+        "chiseled_nether_bricks",
+        "chiseled_stone_bricks",
+        "chiseled_tuff_bricks",
+        "cracked_deepslate_bricks",
+        "cracked_deepslate_tiles",
+        "cracked_nether_bricks",
+        "cracked_polished_blackstone_bricks",
+        "cracked_stone_bricks",
+        "deepslate_bricks",
+        "deepslate_tiles",
+        "end_stone_bricks",
+        "mossy_stone_bricks",
+        "nether_bricks",
+        "polished_blackstone_bricks",
+        "red_nether_bricks",
+        "stone_bricks",
+        "tuff_bricks"
+      ]
+    },
+    {
+      "id": "worked_stone",
+      "name": "加工石材",
+      "members": [
+        "chiseled_polished_blackstone",
+        "polished_andesite",
+        "polished_basalt",
+        "polished_blackstone",
+        "polished_deepslate",
+        "polished_diorite",
+        "polished_granite",
+        "polished_tuff",
+        "smooth_stone"
+      ]
+    },
+    {
+      "id": "quartz_block",
+      "name": "石英块",
+      "members": [
+        "chiseled_quartz_block",
+        "quartz_block",
+        "quartz_bricks",
+        "quartz_pillar",
+        "smooth_quartz"
+      ]
+    },
+    {
+      "id": "sandstone",
+      "name": "砂岩",
+      "members": [
+        "chiseled_red_sandstone",
+        "chiseled_sandstone",
+        "cut_red_sandstone",
+        "cut_sandstone",
+        "red_sandstone",
+        "sandstone",
+        "smooth_red_sandstone",
+        "smooth_sandstone"
+      ]
+    },
+    {
+      "id": "resin_bricks",
+      "name": "树脂砖块",
+      "members": [
+        "chiseled_resin_bricks",
+        "resin_bricks"
+      ]
+    },
+    {
+      "id": "sulfur",
+      "name": "硫黄",
+      "members": [
+        "chiseled_sulfur",
+        "polished_sulfur",
+        "sulfur",
+        "sulfur_bricks"
+      ]
+    },
+    {
+      "id": "tuff",
+      "name": "凝灰岩",
+      "members": [
+        "chiseled_tuff",
+        "tuff"
+      ]
+    },
+    {
+      "id": "chorus_flower",
+      "name": "紫颂花",
+      "members": [
+        "chorus_flower"
+      ]
+    },
+    {
+      "id": "chorus_plant",
+      "name": "紫颂植株",
+      "members": [
+        "chorus_plant"
+      ]
+    },
+    {
+      "id": "clay",
+      "name": "黏土",
+      "members": [
+        "clay"
+      ]
+    },
+    {
+      "id": "coal_block",
+      "name": "煤炭块",
+      "members": [
+        "coal_block"
+      ]
+    },
+    {
+      "id": "coal_ore",
+      "name": "煤矿石",
+      "members": [
+        "coal_ore"
+      ]
+    },
+    {
+      "id": "coarse_dirt",
+      "name": "砂土",
+      "members": [
+        "coarse_dirt"
+      ]
+    },
+    {
+      "id": "cobblestone",
+      "name": "圆石",
+      "members": [
+        "cobbled_deepslate",
+        "cobblestone",
+        "mossy_cobblestone"
+      ]
+    },
+    {
+      "id": "cobweb",
+      "name": "蜘蛛网",
+      "members": [
+        "cobweb"
+      ]
+    },
+    {
+      "id": "cocoa",
+      "name": "可可果",
+      "members": [
+        "cocoa"
+      ]
+    },
+    {
+      "id": "comparator",
+      "name": "红石比较器",
+      "members": [
+        "comparator"
+      ]
+    },
+    {
+      "id": "composter",
+      "name": "堆肥桶",
+      "members": [
+        "composter"
+      ]
+    },
+    {
+      "id": "conduit",
+      "name": "潮涌核心",
+      "members": [
+        "conduit"
+      ]
+    },
+    {
+      "id": "copper_bars",
+      "name": "铜栏杆",
+      "members": [
+        "copper_bars",
+        "exposed_copper_bars",
+        "oxidized_copper_bars",
+        "waxed_copper_bars",
+        "waxed_exposed_copper_bars",
+        "waxed_oxidized_copper_bars",
+        "waxed_weathered_copper_bars",
+        "weathered_copper_bars"
+      ]
+    },
+    {
+      "id": "copper_bulb",
+      "name": "铜灯",
+      "members": [
+        "copper_bulb",
+        "exposed_copper_bulb",
+        "oxidized_copper_bulb",
+        "waxed_copper_bulb",
+        "waxed_exposed_copper_bulb",
+        "waxed_oxidized_copper_bulb",
+        "waxed_weathered_copper_bulb",
+        "weathered_copper_bulb"
+      ]
+    },
+    {
+      "id": "copper_chain",
+      "name": "铜链",
+      "members": [
+        "copper_chain",
+        "exposed_copper_chain",
+        "oxidized_copper_chain",
+        "waxed_copper_chain",
+        "waxed_exposed_copper_chain",
+        "waxed_oxidized_copper_chain",
+        "waxed_weathered_copper_chain",
+        "weathered_copper_chain"
+      ]
+    },
+    {
+      "id": "copper_chest",
+      "name": "铜箱子",
+      "members": [
+        "copper_chest",
+        "exposed_copper_chest",
+        "oxidized_copper_chest",
+        "waxed_copper_chest",
+        "waxed_exposed_copper_chest",
+        "waxed_oxidized_copper_chest",
+        "waxed_weathered_copper_chest",
+        "weathered_copper_chest"
+      ]
+    },
+    {
+      "id": "copper_golem_statue",
+      "name": "铜傀儡像",
+      "members": [
+        "copper_golem_statue",
+        "exposed_copper_golem_statue",
+        "oxidized_copper_golem_statue",
+        "waxed_copper_golem_statue",
+        "waxed_exposed_copper_golem_statue",
+        "waxed_oxidized_copper_golem_statue",
+        "waxed_weathered_copper_golem_statue",
+        "weathered_copper_golem_statue"
+      ]
+    },
+    {
+      "id": "copper_grate",
+      "name": "铜格栅",
+      "members": [
+        "copper_grate",
+        "exposed_copper_grate",
+        "oxidized_copper_grate",
+        "waxed_copper_grate",
+        "waxed_exposed_copper_grate",
+        "waxed_oxidized_copper_grate",
+        "waxed_weathered_copper_grate",
+        "weathered_copper_grate"
+      ]
+    },
+    {
+      "id": "copper_lantern",
+      "name": "铜灯笼",
+      "members": [
+        "copper_lantern",
+        "exposed_copper_lantern",
+        "oxidized_copper_lantern",
+        "waxed_copper_lantern",
+        "waxed_exposed_copper_lantern",
+        "waxed_oxidized_copper_lantern",
+        "waxed_weathered_copper_lantern",
+        "weathered_copper_lantern"
+      ]
+    },
+    {
+      "id": "copper_ore",
+      "name": "铜矿石",
+      "members": [
+        "copper_ore"
+      ]
+    },
+    {
+      "id": "copper_torch",
+      "name": "铜火把",
+      "members": [
+        "copper_torch",
+        "copper_wall_torch"
+      ]
+    },
+    {
+      "id": "crafter",
+      "name": "合成器",
+      "members": [
+        "crafter"
+      ]
+    },
+    {
+      "id": "crafting_table",
+      "name": "工作台",
+      "members": [
+        "crafting_table"
+      ]
+    },
+    {
+      "id": "creaking_heart",
+      "name": "嘎枝之心",
+      "members": [
+        "creaking_heart"
+      ]
+    },
+    {
+      "id": "creeper_head",
+      "name": "苦力怕的头",
+      "members": [
+        "creeper_head",
+        "creeper_wall_head"
+      ]
+    },
+    {
+      "id": "crimson_fungus",
+      "name": "绯红菌",
+      "members": [
+        "crimson_fungus",
+        "potted_crimson_fungus"
+      ]
+    },
+    {
+      "id": "crimson_nylium",
+      "name": "绯红菌岩",
+      "members": [
+        "crimson_nylium"
+      ]
+    },
+    {
+      "id": "crimson_roots",
+      "name": "绯红菌索",
+      "members": [
+        "crimson_roots",
+        "potted_crimson_roots"
+      ]
+    },
+    {
+      "id": "obsidian",
+      "name": "黑曜石",
+      "members": [
+        "crying_obsidian",
+        "obsidian"
+      ]
+    },
+    {
+      "id": "cut_copper",
+      "name": "切制铜块",
+      "members": [
+        "cut_copper",
+        "exposed_cut_copper",
+        "oxidized_cut_copper",
+        "waxed_cut_copper",
+        "waxed_exposed_cut_copper",
+        "waxed_oxidized_cut_copper",
+        "waxed_weathered_cut_copper",
+        "weathered_cut_copper"
+      ]
+    },
+    {
+      "id": "damaged_anvil",
+      "name": "损坏的铁砧",
+      "members": [
+        "damaged_anvil"
+      ]
+    },
+    {
+      "id": "prismarine",
+      "name": "海晶石",
+      "members": [
+        "dark_prismarine",
+        "prismarine",
+        "prismarine_bricks"
+      ]
+    },
+    {
+      "id": "daylight_detector",
+      "name": "阳光探测器",
+      "members": [
+        "daylight_detector"
+      ]
+    },
+    {
+      "id": "dead_bush",
+      "name": "枯萎的灌木",
+      "members": [
+        "dead_bush",
+        "potted_dead_bush"
+      ]
+    },
+    {
+      "id": "decorated_pot",
+      "name": "饰纹陶罐",
+      "members": [
+        "decorated_pot"
+      ]
+    },
+    {
+      "id": "deepslate_coal_ore",
+      "name": "深层煤矿石",
+      "members": [
+        "deepslate_coal_ore"
+      ]
+    },
+    {
+      "id": "deepslate_copper_ore",
+      "name": "深层铜矿石",
+      "members": [
+        "deepslate_copper_ore"
+      ]
+    },
+    {
+      "id": "deepslate_diamond_ore",
+      "name": "深层钻石矿石",
+      "members": [
+        "deepslate_diamond_ore"
+      ]
+    },
+    {
+      "id": "deepslate_emerald_ore",
+      "name": "深层绿宝石矿石",
+      "members": [
+        "deepslate_emerald_ore"
+      ]
+    },
+    {
+      "id": "deepslate_gold_ore",
+      "name": "深层金矿石",
+      "members": [
+        "deepslate_gold_ore"
+      ]
+    },
+    {
+      "id": "deepslate_iron_ore",
+      "name": "深层铁矿石",
+      "members": [
+        "deepslate_iron_ore"
+      ]
+    },
+    {
+      "id": "deepslate_lapis_ore",
+      "name": "深层青金石矿石",
+      "members": [
+        "deepslate_lapis_ore"
+      ]
+    },
+    {
+      "id": "deepslate_redstone_ore",
+      "name": "深层红石矿石",
+      "members": [
+        "deepslate_redstone_ore"
+      ]
+    },
+    {
+      "id": "detector_rail",
+      "name": "探测铁轨",
+      "members": [
+        "detector_rail"
+      ]
+    },
+    {
+      "id": "diamond_block",
+      "name": "钻石块",
+      "members": [
+        "diamond_block"
+      ]
+    },
+    {
+      "id": "diamond_ore",
+      "name": "钻石矿石",
+      "members": [
+        "diamond_ore"
+      ]
+    },
+    {
+      "id": "diorite",
+      "name": "闪长岩",
+      "members": [
+        "diorite"
+      ]
+    },
+    {
+      "id": "dirt",
+      "name": "泥土",
+      "members": [
+        "dirt"
+      ]
+    },
+    {
+      "id": "dirt_path",
+      "name": "土径",
+      "members": [
+        "dirt_path"
+      ]
+    },
+    {
+      "id": "dispenser",
+      "name": "发射器",
+      "members": [
+        "dispenser"
+      ]
+    },
+    {
+      "id": "dragon_egg",
+      "name": "龙蛋",
+      "members": [
+        "dragon_egg"
+      ]
+    },
+    {
+      "id": "dragon_head",
+      "name": "龙首",
+      "members": [
+        "dragon_head",
+        "dragon_wall_head"
+      ]
+    },
+    {
+      "id": "dried_ghast",
+      "name": "失水恶魂",
+      "members": [
+        "dried_ghast"
+      ]
+    },
+    {
+      "id": "dried_kelp_block",
+      "name": "干海带块",
+      "members": [
+        "dried_kelp_block"
+      ]
+    },
+    {
+      "id": "dripstone_block",
+      "name": "滴水石块",
+      "members": [
+        "dripstone_block"
+      ]
+    },
+    {
+      "id": "dropper",
+      "name": "投掷器",
+      "members": [
+        "dropper"
+      ]
+    },
+    {
+      "id": "emerald_block",
+      "name": "绿宝石块",
+      "members": [
+        "emerald_block"
+      ]
+    },
+    {
+      "id": "emerald_ore",
+      "name": "绿宝石矿石",
+      "members": [
+        "emerald_ore"
+      ]
+    },
+    {
+      "id": "enchanting_table",
+      "name": "附魔台",
+      "members": [
+        "enchanting_table"
+      ]
+    },
+    {
+      "id": "end_gateway",
+      "name": "末地折跃门",
+      "members": [
+        "end_gateway"
+      ]
+    },
+    {
+      "id": "end_portal",
+      "name": "末地传送门",
+      "members": [
+        "end_portal"
+      ]
+    },
+    {
+      "id": "end_portal_frame",
+      "name": "末地传送门框架",
+      "members": [
+        "end_portal_frame"
+      ]
+    },
+    {
+      "id": "end_rod",
+      "name": "末地烛",
+      "members": [
+        "end_rod"
+      ]
+    },
+    {
+      "id": "end_stone",
+      "name": "末地石",
+      "members": [
+        "end_stone"
+      ]
+    },
+    {
+      "id": "ender_chest",
+      "name": "末影箱",
+      "members": [
+        "ender_chest"
+      ]
+    },
+    {
+      "id": "lightning_rod",
+      "name": "避雷针",
+      "members": [
+        "exposed_lightning_rod",
+        "lightning_rod",
+        "oxidized_lightning_rod",
+        "waxed_exposed_lightning_rod",
+        "waxed_lightning_rod",
+        "waxed_oxidized_lightning_rod",
+        "waxed_weathered_lightning_rod",
+        "weathered_lightning_rod"
+      ]
+    },
+    {
+      "id": "farmland",
+      "name": "耕地",
+      "members": [
+        "farmland"
+      ]
+    },
+    {
+      "id": "fern",
+      "name": "蕨",
+      "members": [
+        "fern",
+        "potted_fern"
+      ]
+    },
+    {
+      "id": "fire",
+      "name": "火",
+      "members": [
+        "fire"
+      ]
+    },
+    {
+      "id": "firefly_bush",
+      "name": "萤火虫灌木丛",
+      "members": [
+        "firefly_bush"
+      ]
+    },
+    {
+      "id": "fletching_table",
+      "name": "制箭台",
+      "members": [
+        "fletching_table"
+      ]
+    },
+    {
+      "id": "flower_pot",
+      "name": "花盆",
+      "members": [
+        "flower_pot"
+      ]
+    },
+    {
+      "id": "frogspawn",
+      "name": "青蛙卵",
+      "members": [
+        "frogspawn"
+      ]
+    },
+    {
+      "id": "frosted_ice",
+      "name": "霜冰",
+      "members": [
+        "frosted_ice"
+      ]
+    },
+    {
+      "id": "furnace",
+      "name": "熔炉",
+      "members": [
+        "furnace"
+      ]
+    },
+    {
+      "id": "gilded_blackstone",
+      "name": "镶金黑石",
+      "members": [
+        "gilded_blackstone"
+      ]
+    },
+    {
+      "id": "glow_lichen",
+      "name": "发光地衣",
+      "members": [
+        "glow_lichen"
+      ]
+    },
+    {
+      "id": "glowstone",
+      "name": "荧石",
+      "members": [
+        "glowstone"
+      ]
+    },
+    {
+      "id": "gold_block",
+      "name": "金块",
+      "members": [
+        "gold_block"
+      ]
+    },
+    {
+      "id": "gold_ore",
+      "name": "金矿石",
+      "members": [
+        "gold_ore"
+      ]
+    },
+    {
+      "id": "granite",
+      "name": "花岗岩",
+      "members": [
+        "granite"
+      ]
+    },
+    {
+      "id": "grass_block",
+      "name": "草方块",
+      "members": [
+        "grass_block"
+      ]
+    },
+    {
+      "id": "gravel",
+      "name": "沙砾",
+      "members": [
+        "gravel"
+      ]
+    },
+    {
+      "id": "grindstone",
+      "name": "砂轮",
+      "members": [
+        "grindstone"
+      ]
+    },
+    {
+      "id": "hanging_roots",
+      "name": "垂根",
+      "members": [
+        "hanging_roots"
+      ]
+    },
+    {
+      "id": "hay_block",
+      "name": "干草捆",
+      "members": [
+        "hay_block"
+      ]
+    },
+    {
+      "id": "heavy_core",
+      "name": "沉重核心",
+      "members": [
+        "heavy_core"
+      ]
+    },
+    {
+      "id": "honey_block",
+      "name": "蜂蜜块",
+      "members": [
+        "honey_block"
+      ]
+    },
+    {
+      "id": "honeycomb_block",
+      "name": "蜜脾块",
+      "members": [
+        "honeycomb_block"
+      ]
+    },
+    {
+      "id": "hopper",
+      "name": "漏斗",
+      "members": [
+        "hopper"
+      ]
+    },
+    {
+      "id": "ice",
+      "name": "冰",
+      "members": [
+        "ice"
+      ]
+    },
+    {
+      "id": "infested_block",
+      "name": "虫蚀方块",
+      "members": [
+        "infested_chiseled_stone_bricks",
+        "infested_cobblestone",
+        "infested_cracked_stone_bricks",
+        "infested_deepslate",
+        "infested_mossy_stone_bricks",
+        "infested_stone",
+        "infested_stone_bricks"
+      ]
+    },
+    {
+      "id": "iron_bars",
+      "name": "铁栏杆",
+      "members": [
+        "iron_bars"
+      ]
+    },
+    {
+      "id": "iron_block",
+      "name": "铁块",
+      "members": [
+        "iron_block"
+      ]
+    },
+    {
+      "id": "iron_chain",
+      "name": "铁链",
+      "members": [
+        "iron_chain"
+      ]
+    },
+    {
+      "id": "iron_ore",
+      "name": "铁矿石",
+      "members": [
+        "iron_ore"
+      ]
+    },
+    {
+      "id": "jack_o_lantern",
+      "name": "南瓜灯",
+      "members": [
+        "jack_o_lantern"
+      ]
+    },
+    {
+      "id": "jigsaw",
+      "name": "拼图方块",
+      "members": [
+        "jigsaw"
+      ]
+    },
+    {
+      "id": "jukebox",
+      "name": "唱片机",
+      "members": [
+        "jukebox"
+      ]
+    },
+    {
+      "id": "kelp",
+      "name": "海带",
+      "members": [
+        "kelp"
+      ]
+    },
+    {
+      "id": "kelp_plant",
+      "name": "海带植株",
+      "members": [
+        "kelp_plant"
+      ]
+    },
+    {
+      "id": "ladder",
+      "name": "梯子",
+      "members": [
+        "ladder"
+      ]
+    },
+    {
+      "id": "lantern",
+      "name": "灯笼",
+      "members": [
+        "lantern"
+      ]
+    },
+    {
+      "id": "lapis_block",
+      "name": "青金石块",
+      "members": [
+        "lapis_block"
+      ]
+    },
+    {
+      "id": "lapis_ore",
+      "name": "青金石矿石",
+      "members": [
+        "lapis_ore"
+      ]
+    },
+    {
+      "id": "large_amethyst_bud",
+      "name": "大型紫晶芽",
+      "members": [
+        "large_amethyst_bud"
+      ]
+    },
+    {
+      "id": "large_fern",
+      "name": "大型蕨",
+      "members": [
+        "large_fern"
+      ]
+    },
+    {
+      "id": "lava",
+      "name": "熔岩",
+      "members": [
+        "lava"
+      ]
+    },
+    {
+      "id": "lava_cauldron",
+      "name": "装有熔岩的炼药锅",
+      "members": [
+        "lava_cauldron"
+      ]
+    },
+    {
+      "id": "leaf_litter",
+      "name": "枯叶堆",
+      "members": [
+        "leaf_litter"
+      ]
+    },
+    {
+      "id": "lectern",
+      "name": "讲台",
+      "members": [
+        "lectern"
+      ]
+    },
+    {
+      "id": "lever",
+      "name": "拉杆",
+      "members": [
+        "lever"
+      ]
+    },
+    {
+      "id": "light",
+      "name": "光源方块",
+      "members": [
+        "light"
+      ]
+    },
+    {
+      "id": "lily_pad",
+      "name": "睡莲",
+      "members": [
+        "lily_pad"
+      ]
+    },
+    {
+      "id": "lodestone",
+      "name": "磁石",
+      "members": [
+        "lodestone"
+      ]
+    },
+    {
+      "id": "loom",
+      "name": "织布机",
+      "members": [
+        "loom"
+      ]
+    },
+    {
+      "id": "magma_block",
+      "name": "岩浆块",
+      "members": [
+        "magma_block"
+      ]
+    },
+    {
+      "id": "mangrove_roots",
+      "name": "红树根",
+      "members": [
+        "mangrove_roots"
+      ]
+    },
+    {
+      "id": "medium_amethyst_bud",
+      "name": "中型紫晶芽",
+      "members": [
+        "medium_amethyst_bud"
+      ]
+    },
+    {
+      "id": "melon",
+      "name": "西瓜",
+      "members": [
+        "melon"
+      ]
+    },
+    {
+      "id": "melon_stem",
+      "name": "西瓜茎",
+      "members": [
+        "melon_stem"
+      ]
+    },
+    {
+      "id": "moss_block",
+      "name": "苔藓块",
+      "members": [
+        "moss_block"
+      ]
+    },
+    {
+      "id": "moss_carpet",
+      "name": "覆地苔藓",
+      "members": [
+        "moss_carpet"
+      ]
+    },
+    {
+      "id": "moving_piston",
+      "name": "移动的活塞",
+      "members": [
+        "moving_piston"
+      ]
+    },
+    {
+      "id": "mud",
+      "name": "泥巴",
+      "members": [
+        "mud"
+      ]
+    },
+    {
+      "id": "mud_bricks",
+      "name": "泥砖",
+      "members": [
+        "mud_bricks"
+      ]
+    },
+    {
+      "id": "muddy_mangrove_roots",
+      "name": "沾泥的红树根",
+      "members": [
+        "muddy_mangrove_roots"
+      ]
+    },
+    {
+      "id": "mushroom_stem",
+      "name": "蘑菇柄",
+      "members": [
+        "mushroom_stem"
+      ]
+    },
+    {
+      "id": "mycelium",
+      "name": "菌丝体",
+      "members": [
+        "mycelium"
+      ]
+    },
+    {
+      "id": "nether_gold_ore",
+      "name": "下界金矿石",
+      "members": [
+        "nether_gold_ore"
+      ]
+    },
+    {
+      "id": "nether_portal",
+      "name": "下界传送门",
+      "members": [
+        "nether_portal"
+      ]
+    },
+    {
+      "id": "nether_quartz_ore",
+      "name": "下界石英矿石",
+      "members": [
+        "nether_quartz_ore"
+      ]
+    },
+    {
+      "id": "nether_sprouts",
+      "name": "下界苗",
+      "members": [
+        "nether_sprouts"
+      ]
+    },
+    {
+      "id": "nether_wart",
+      "name": "下界疣",
+      "members": [
+        "nether_wart"
+      ]
+    },
+    {
+      "id": "nether_wart_block",
+      "name": "下界疣块",
+      "members": [
+        "nether_wart_block"
+      ]
+    },
+    {
+      "id": "netherite_block",
+      "name": "下界合金块",
+      "members": [
+        "netherite_block"
+      ]
+    },
+    {
+      "id": "netherrack",
+      "name": "下界岩",
+      "members": [
+        "netherrack"
+      ]
+    },
+    {
+      "id": "note_block",
+      "name": "音符盒",
+      "members": [
+        "note_block"
+      ]
+    },
+    {
+      "id": "observer",
+      "name": "侦测器",
+      "members": [
+        "observer"
+      ]
+    },
+    {
+      "id": "ochre_froglight",
+      "name": "赭黄蛙明灯",
+      "members": [
+        "ochre_froglight"
+      ]
+    },
+    {
+      "id": "packed_ice",
+      "name": "浮冰",
+      "members": [
+        "packed_ice"
+      ]
+    },
+    {
+      "id": "packed_mud",
+      "name": "泥坯",
+      "members": [
+        "packed_mud"
+      ]
+    },
+    {
+      "id": "pale_hanging_moss",
+      "name": "苍白垂须",
+      "members": [
+        "pale_hanging_moss"
+      ]
+    },
+    {
+      "id": "pale_moss_block",
+      "name": "苍白苔藓块",
+      "members": [
+        "pale_moss_block"
+      ]
+    },
+    {
+      "id": "pale_moss_carpet",
+      "name": "苍白覆地苔藓",
+      "members": [
+        "pale_moss_carpet"
+      ]
+    },
+    {
+      "id": "pearlescent_froglight",
+      "name": "珠光蛙明灯",
+      "members": [
+        "pearlescent_froglight"
+      ]
+    },
+    {
+      "id": "piglin_head",
+      "name": "猪灵的头",
+      "members": [
+        "piglin_head",
+        "piglin_wall_head"
+      ]
+    },
+    {
+      "id": "piston",
+      "name": "活塞",
+      "members": [
+        "piston"
+      ]
+    },
+    {
+      "id": "piston_head",
+      "name": "活塞头",
+      "members": [
+        "piston_head"
+      ]
+    },
+    {
+      "id": "player_head",
+      "name": "玩家的头",
+      "members": [
+        "player_head",
+        "player_wall_head"
+      ]
+    },
+    {
+      "id": "podzol",
+      "name": "灰化土",
+      "members": [
+        "podzol"
+      ]
+    },
+    {
+      "id": "pointed_dripstone",
+      "name": "滴水石锥",
+      "members": [
+        "pointed_dripstone"
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "马铃薯",
+      "members": [
+        "potatoes"
+      ]
+    },
+    {
+      "id": "potent_sulfur",
+      "name": "烈性硫黄",
+      "members": [
+        "potent_sulfur"
+      ]
+    },
+    {
+      "id": "red_mushroom",
+      "name": "红色蘑菇",
+      "members": [
+        "potted_red_mushroom",
+        "red_mushroom"
+      ]
+    },
+    {
+      "id": "warped_fungus",
+      "name": "诡异菌",
+      "members": [
+        "potted_warped_fungus",
+        "warped_fungus"
+      ]
+    },
+    {
+      "id": "warped_roots",
+      "name": "诡异菌索",
+      "members": [
+        "potted_warped_roots",
+        "warped_roots"
+      ]
+    },
+    {
+      "id": "powder_snow",
+      "name": "细雪",
+      "members": [
+        "powder_snow"
+      ]
+    },
+    {
+      "id": "powder_snow_cauldron",
+      "name": "装有细雪的炼药锅",
+      "members": [
+        "powder_snow_cauldron"
+      ]
+    },
+    {
+      "id": "powered_rail",
+      "name": "动力铁轨",
+      "members": [
+        "powered_rail"
+      ]
+    },
+    {
+      "id": "pumpkin",
+      "name": "南瓜",
+      "members": [
+        "pumpkin"
+      ]
+    },
+    {
+      "id": "pumpkin_stem",
+      "name": "南瓜茎",
+      "members": [
+        "pumpkin_stem"
+      ]
+    },
+    {
+      "id": "purpur_block",
+      "name": "紫珀块",
+      "members": [
+        "purpur_block"
+      ]
+    },
+    {
+      "id": "purpur_pillar",
+      "name": "紫珀柱",
+      "members": [
+        "purpur_pillar"
+      ]
+    },
+    {
+      "id": "rail",
+      "name": "铁轨",
+      "members": [
+        "rail"
+      ]
+    },
+    {
+      "id": "raw_copper_block",
+      "name": "粗铜块",
+      "members": [
+        "raw_copper_block"
+      ]
+    },
+    {
+      "id": "raw_gold_block",
+      "name": "粗金块",
+      "members": [
+        "raw_gold_block"
+      ]
+    },
+    {
+      "id": "raw_iron_block",
+      "name": "粗铁块",
+      "members": [
+        "raw_iron_block"
+      ]
+    },
+    {
+      "id": "red_mushroom_block",
+      "name": "红色蘑菇方块",
+      "members": [
+        "red_mushroom_block"
+      ]
+    },
+    {
+      "id": "red_sand",
+      "name": "红沙",
+      "members": [
+        "red_sand"
+      ]
+    },
+    {
+      "id": "red_shrub",
+      "name": "红灌木",
+      "members": [
+        "red_shrub"
+      ]
+    },
+    {
+      "id": "redstone_block",
+      "name": "红石块",
+      "members": [
+        "redstone_block"
+      ]
+    },
+    {
+      "id": "redstone_lamp",
+      "name": "红石灯",
+      "members": [
+        "redstone_lamp"
+      ]
+    },
+    {
+      "id": "redstone_ore",
+      "name": "红石矿石",
+      "members": [
+        "redstone_ore"
+      ]
+    },
+    {
+      "id": "redstone_torch",
+      "name": "红石火把",
+      "members": [
+        "redstone_torch",
+        "redstone_wall_torch"
+      ]
+    },
+    {
+      "id": "redstone_wire",
+      "name": "红石线",
+      "members": [
+        "redstone_wire"
+      ]
+    },
+    {
+      "id": "reinforced_deepslate",
+      "name": "强化深板岩",
+      "members": [
+        "reinforced_deepslate"
+      ]
+    },
+    {
+      "id": "repeater",
+      "name": "红石中继器",
+      "members": [
+        "repeater"
+      ]
+    },
+    {
+      "id": "resin_block",
+      "name": "树脂块",
+      "members": [
+        "resin_block"
+      ]
+    },
+    {
+      "id": "resin_clump",
+      "name": "树脂团",
+      "members": [
+        "resin_clump"
+      ]
+    },
+    {
+      "id": "respawn_anchor",
+      "name": "重生锚",
+      "members": [
+        "respawn_anchor"
+      ]
+    },
+    {
+      "id": "rooted_dirt",
+      "name": "缠根泥土",
+      "members": [
+        "rooted_dirt"
+      ]
+    },
+    {
+      "id": "sand",
+      "name": "沙子",
+      "members": [
+        "sand"
+      ]
+    },
+    {
+      "id": "scaffolding",
+      "name": "脚手架",
+      "members": [
+        "scaffolding"
+      ]
+    },
+    {
+      "id": "sculk",
+      "name": "幽匿块",
+      "members": [
+        "sculk"
+      ]
+    },
+    {
+      "id": "sculk_catalyst",
+      "name": "幽匿催发体",
+      "members": [
+        "sculk_catalyst"
+      ]
+    },
+    {
+      "id": "sculk_sensor",
+      "name": "幽匿感测体",
+      "members": [
+        "sculk_sensor"
+      ]
+    },
+    {
+      "id": "sculk_shrieker",
+      "name": "幽匿尖啸体",
+      "members": [
+        "sculk_shrieker"
+      ]
+    },
+    {
+      "id": "sculk_vein",
+      "name": "幽匿脉络",
+      "members": [
+        "sculk_vein"
+      ]
+    },
+    {
+      "id": "sea_lantern",
+      "name": "海晶灯",
+      "members": [
+        "sea_lantern"
+      ]
+    },
+    {
+      "id": "sea_pickle",
+      "name": "海泡菜",
+      "members": [
+        "sea_pickle"
+      ]
+    },
+    {
+      "id": "seagrass",
+      "name": "海草",
+      "members": [
+        "seagrass"
+      ]
+    },
+    {
+      "id": "shelf_mushroom",
+      "name": "层孔菇",
+      "members": [
+        "shelf_mushroom"
+      ]
+    },
+    {
+      "id": "short_dry_grass",
+      "name": "矮枯草丛",
+      "members": [
+        "short_dry_grass"
+      ]
+    },
+    {
+      "id": "short_grass",
+      "name": "矮草丛",
+      "members": [
+        "short_grass"
+      ]
+    },
+    {
+      "id": "shroomlight",
+      "name": "菌光体",
+      "members": [
+        "shroomlight"
+      ]
+    },
+    {
+      "id": "skeleton_skull",
+      "name": "骷髅头颅",
+      "members": [
+        "skeleton_skull",
+        "skeleton_wall_skull"
+      ]
+    },
+    {
+      "id": "slime_block",
+      "name": "黏液块",
+      "members": [
+        "slime_block"
+      ]
+    },
+    {
+      "id": "small_amethyst_bud",
+      "name": "小型紫晶芽",
+      "members": [
+        "small_amethyst_bud"
+      ]
+    },
+    {
+      "id": "small_dripleaf",
+      "name": "小型垂滴叶",
+      "members": [
+        "small_dripleaf"
+      ]
+    },
+    {
+      "id": "smithing_table",
+      "name": "锻造台",
+      "members": [
+        "smithing_table"
+      ]
+    },
+    {
+      "id": "smoker",
+      "name": "烟熏炉",
+      "members": [
+        "smoker"
+      ]
+    },
+    {
+      "id": "smooth_basalt",
+      "name": "平滑玄武岩",
+      "members": [
+        "smooth_basalt"
+      ]
+    },
+    {
+      "id": "sniffer_egg",
+      "name": "嗅探兽蛋",
+      "members": [
+        "sniffer_egg"
+      ]
+    },
+    {
+      "id": "snow",
+      "name": "雪",
+      "members": [
+        "snow"
+      ]
+    },
+    {
+      "id": "snow_block",
+      "name": "雪块",
+      "members": [
+        "snow_block"
+      ]
+    },
+    {
+      "id": "soul_campfire",
+      "name": "灵魂营火",
+      "members": [
+        "soul_campfire"
+      ]
+    },
+    {
+      "id": "soul_fire",
+      "name": "灵魂火",
+      "members": [
+        "soul_fire"
+      ]
+    },
+    {
+      "id": "soul_lantern",
+      "name": "灵魂灯笼",
+      "members": [
+        "soul_lantern"
+      ]
+    },
+    {
+      "id": "soul_sand",
+      "name": "灵魂沙",
+      "members": [
+        "soul_sand"
+      ]
+    },
+    {
+      "id": "soul_soil",
+      "name": "灵魂土",
+      "members": [
+        "soul_soil"
+      ]
+    },
+    {
+      "id": "soul_torch",
+      "name": "灵魂火把",
+      "members": [
+        "soul_torch",
+        "soul_wall_torch"
+      ]
+    },
+    {
+      "id": "spawner",
+      "name": "刷怪笼",
+      "members": [
+        "spawner"
+      ]
+    },
+    {
+      "id": "sponge",
+      "name": "海绵",
+      "members": [
+        "sponge"
+      ]
+    },
+    {
+      "id": "sticky_piston",
+      "name": "黏性活塞",
+      "members": [
+        "sticky_piston"
+      ]
+    },
+    {
+      "id": "stone",
+      "name": "石头",
+      "members": [
+        "stone"
+      ]
+    },
+    {
+      "id": "stonecutter",
+      "name": "切石机",
+      "members": [
+        "stonecutter"
+      ]
+    },
+    {
+      "id": "straw_bed",
+      "name": "麦秆床",
+      "members": [
+        "straw_bed"
+      ]
+    },
+    {
+      "id": "structure_block",
+      "name": "结构方块",
+      "members": [
+        "structure_block"
+      ]
+    },
+    {
+      "id": "structure_void",
+      "name": "结构空位",
+      "members": [
+        "structure_void"
+      ]
+    },
+    {
+      "id": "sugar_cane",
+      "name": "甘蔗",
+      "members": [
+        "sugar_cane"
+      ]
+    },
+    {
+      "id": "sulfur_spike",
+      "name": "硫黄尖锥",
+      "members": [
+        "sulfur_spike"
+      ]
+    },
+    {
+      "id": "suspicious_gravel",
+      "name": "可疑的沙砾",
+      "members": [
+        "suspicious_gravel"
+      ]
+    },
+    {
+      "id": "suspicious_sand",
+      "name": "可疑的沙子",
+      "members": [
+        "suspicious_sand"
+      ]
+    },
+    {
+      "id": "sweet_berry_bush",
+      "name": "甜浆果丛",
+      "members": [
+        "sweet_berry_bush"
+      ]
+    },
+    {
+      "id": "tall_dry_grass",
+      "name": "高枯草丛",
+      "members": [
+        "tall_dry_grass"
+      ]
+    },
+    {
+      "id": "tall_grass",
+      "name": "高草丛",
+      "members": [
+        "tall_grass"
+      ]
+    },
+    {
+      "id": "tall_seagrass",
+      "name": "高海草",
+      "members": [
+        "tall_seagrass"
+      ]
+    },
+    {
+      "id": "target",
+      "name": "标靶",
+      "members": [
+        "target"
+      ]
+    },
+    {
+      "id": "test_block",
+      "name": "测试方块",
+      "members": [
+        "test_block"
+      ]
+    },
+    {
+      "id": "test_instance_block",
+      "name": "测试实例方块",
+      "members": [
+        "test_instance_block"
+      ]
+    },
+    {
+      "id": "tinted_glass",
+      "name": "遮光玻璃",
+      "members": [
+        "tinted_glass"
+      ]
+    },
+    {
+      "id": "tnt",
+      "name": "TNT",
+      "members": [
+        "tnt"
+      ]
+    },
+    {
+      "id": "torch",
+      "name": "火把",
+      "members": [
+        "torch",
+        "wall_torch"
+      ]
+    },
+    {
+      "id": "trapped_chest",
+      "name": "陷阱箱",
+      "members": [
+        "trapped_chest"
+      ]
+    },
+    {
+      "id": "trial_spawner",
+      "name": "试炼刷怪笼",
+      "members": [
+        "trial_spawner"
+      ]
+    },
+    {
+      "id": "tripwire",
+      "name": "绊线",
+      "members": [
+        "tripwire"
+      ]
+    },
+    {
+      "id": "tripwire_hook",
+      "name": "绊线钩",
+      "members": [
+        "tripwire_hook"
+      ]
+    },
+    {
+      "id": "turtle_egg",
+      "name": "海龟蛋",
+      "members": [
+        "turtle_egg"
+      ]
+    },
+    {
+      "id": "twisting_vines",
+      "name": "缠怨藤",
+      "members": [
+        "twisting_vines"
+      ]
+    },
+    {
+      "id": "twisting_vines_plant",
+      "name": "缠怨藤植株",
+      "members": [
+        "twisting_vines_plant"
+      ]
+    },
+    {
+      "id": "vault",
+      "name": "宝库",
+      "members": [
+        "vault"
+      ]
+    },
+    {
+      "id": "verdant_froglight",
+      "name": "青翠蛙明灯",
+      "members": [
+        "verdant_froglight"
+      ]
+    },
+    {
+      "id": "vine",
+      "name": "藤蔓",
+      "members": [
+        "vine"
+      ]
+    },
+    {
+      "id": "warped_nylium",
+      "name": "诡异菌岩",
+      "members": [
+        "warped_nylium"
+      ]
+    },
+    {
+      "id": "warped_wart_block",
+      "name": "诡异疣块",
+      "members": [
+        "warped_wart_block"
+      ]
+    },
+    {
+      "id": "water",
+      "name": "水",
+      "members": [
+        "water"
+      ]
+    },
+    {
+      "id": "water_cauldron",
+      "name": "装有水的炼药锅",
+      "members": [
+        "water_cauldron"
+      ]
+    },
+    {
+      "id": "weeping_vines",
+      "name": "垂泪藤",
+      "members": [
+        "weeping_vines"
+      ]
+    },
+    {
+      "id": "weeping_vines_plant",
+      "name": "垂泪藤植株",
+      "members": [
+        "weeping_vines_plant"
+      ]
+    },
+    {
+      "id": "wet_sponge",
+      "name": "湿海绵",
+      "members": [
+        "wet_sponge"
+      ]
+    },
+    {
+      "id": "wheat",
+      "name": "小麦植株",
+      "members": [
+        "wheat"
+      ]
+    },
+    {
+      "id": "wither_skeleton_skull",
+      "name": "凋灵骷髅头颅",
+      "members": [
+        "wither_skeleton_skull",
+        "wither_skeleton_wall_skull"
+      ]
+    },
+    {
+      "id": "zombie_head",
+      "name": "僵尸的头",
+      "members": [
+        "zombie_head",
+        "zombie_wall_head"
+      ]
+    }
+  ]
+}

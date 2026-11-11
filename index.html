@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#101612"><title>方块侦探 · MC 猜方块</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><div class="brand"><span class="brand-cube" aria-hidden="true">▦</span> MC方块猜测 <span class="brand-en">BLOCK DETECTIVE</span></div><button class="quiet" id="rules-button">ⓘ <span>游戏规则</span></button></header>
+<main>
+<section class="play-area" aria-label="猜测方块"><div class="section-heading"><h2><span class="heading-mark"></span> 开始你的探索</h2><span class="round-label" id="round-label">新的一局，新的秘密</span></div><div class="start-controls"><button id="start-game" class="primary" type="button">开始游戏</button><button id="library-button" class="quiet" type="button">方块图鉴</button></div><form id="guess-form" autocomplete="off"><div class="input-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input id="guess-input" type="text" disabled aria-label="输入字段" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="输入字段后按回车提交" maxlength="80"><kbd>↵</kbd></div><button class="primary" id="guess-button" type="submit" disabled>提交猜测 <span aria-hidden="true">→</span></button></form><div class="input-foot"><span>直接提交，系统自动匹配 <span class="foot-dot">·</span> 每次非空提交计为一次猜测</span></div><p class="notice" id="notice" aria-live="polite"></p></section>
+<section class="results" aria-label="猜测记录"><div class="results-heading"><div class="result-title"><h2>探索记录</h2><span class="count-badge" id="guess-count">0 次猜测</span></div><div class="legend"><span><i class="green-dot"></i>匹配</span><span><i class="red-dot"></i>不匹配</span><span class="arrows">↑ ↓ <span>答案更高 / 更低</span></span></div></div><div class="empty-state" id="empty-state"><div class="empty-icon" aria-hidden="true">▦<span>?</span></div><h3 id="empty-title">准备好探索方块世界了吗？</h3><p id="empty-description">点击“开始游戏”，系统才会选定目标方块。</p></div><div class="history-list" id="history" aria-label="方块属性对比记录" hidden></div><div class="win-panel" id="win-panel" hidden aria-live="polite"><span class="win-star">✦</span><div><h3 id="win-title"></h3><p id="win-description"></p></div></div><div class="results-foot"><span>每一次猜测，都离答案更近一步。</span><div class="round-actions"><button id="end-round" class="text-button" type="button" hidden>结束本局，查看答案</button></div></div></section>
+</main>
+<dialog id="rules-dialog" aria-labelledby="rules-title">
+<div class="dialog-head"><h2 id="rules-title">游戏规则</h2><button class="close-button" data-close aria-label="关闭游戏规则">×</button></div>
+<div class="rules-content">
+<p>系统藏起一个方块类别，你通过提交名称、比较属性，找出本局答案。猜测次数不限，猜中类别即可获胜。</p>
+<h3>1. 开始与结束</h3>
+<p>点击<strong>“开始游戏”</strong>后，系统才选定目标并开放输入。本局目标固定；猜中后自动结束，也可点击<strong>“结束本局，查看答案”</strong>，确认后揭晓答案并停止猜测，记录保留且不增加次数。</p>
+<p>结束后，再次点击“开始游戏”会清空上一局记录并选择新的目标。</p>
+<h3>2. 输入与计数</h3>
+<p>输入中文名称、英文 ID 或名称片段，按回车或点击“提交猜测”。输入时没有候选提示，提交后系统直接选出名称最匹配的类别。例如“闪长”匹配“闪长岩”，“橡木原木”匹配“原木”。记录会同时显示你的输入和实际采用的方块。</p>
+<p>完整名称优先，其次匹配片段和相似写法。即使输入不准确，也可能选出一个方块，请核对记录。匹配不参考隐藏答案，也不会跳过已猜类别。</p>
+<p>每次有效提交计一次，重复猜测也计数。空白或无有效内容的输入不计数；每次最多输入 80 个字符。</p>
+<h3>3. 看懂颜色与箭头</h3>
+<p>每次猜测对比 11 项属性：可再生、挖掘工具、发光性质、完整方块、可燃、火焰传播、透明、堆叠数量、爆炸抗性、硬度、初始版本。</p>
+<p><span class="match-text">✓ 绿色：该项属性相同。</span><br><span class="miss-text">× 红色：该项属性不同。</span><br>属性相同只是线索；只有猜中目标类别才算获胜。</p>
+<p><strong>爆炸抗性、硬度：</strong>↑ 表示猜低了，答案参考值更高；↓ 表示猜高了，答案参考值更低。范围按中点比较：</p>
+<p><strong>参考值 = 最低值 +（最高值 − 最低值）÷ 2</strong></p>
+<p>答案和猜测都是如此计算，单个数值直接使用。例如答案范围为 2～6，参考值为 4；猜测值为 3 显示 ↑，为 5 显示 ↓。记录仍显示原范围。参考值相同则无箭头，但范围不同仍标红。</p>
+<p><strong>初始版本：</strong>↑ 表示答案出现得更晚，↓ 表示更早。版本按 pre-alpha、alpha、beta、1.8、1.17 等更新系列显示，取类别中最早成员的版本。</p>
+<h3>4. 按类别猜，按汇总属性比较</h3>
+<p id="dataset-description"></p>
+<ul>
+<li>不同木种的原木、木板等按用途合并；所有材质的楼梯和台阶统一为“楼梯”。天然石材按石种独立，磨制和平滑石等另归“加工石材”。</li>
+<li>可染色方块去掉颜色细分；所有陶瓦（含带釉陶瓦）统一为“陶瓦”。主世界的花统一为“花”，紫颂花保留。</li>
+<li>珊瑚按形态分为“珊瑚”“珊瑚块”“珊瑚扇”；铜制品去掉氧化和涂蜡细分。雕纹、墙挂变体归回基础类别。</li>
+<li>普通空气、洞穴空气和虚空空气统一为“空气”。盆栽归入对应植物，空花盆仍是“花盆”。</li>
+</ul>
+<p>同类成员特性不一致时，是/否或发光性质显示<strong>“部分”</strong>；工具合并显示，如“镐/斧”，镐不区分材质等级。工具集合须完全相同才标绿；“部分”与“部分”匹配。</p>
+<p>堆叠数量、爆炸抗性、硬度有差异时显示范围，范围完全相同才标绿。“不可破坏”的硬度高于所有可破坏方块；“无物品形态”表示没有可堆叠物品。</p>
+<h3>5. 图鉴与进度</h3>
+<p><strong>未开始或本局结束后</strong>可打开“方块图鉴”，按中文名称、英文 ID 或变体名称搜索，分页查看图片和全部属性。浏览图鉴不会开局或计数；游戏进行中不可查看。</p>
+<p>浏览器允许本地存储时会自动保存进度。使用同一浏览器和地址刷新可继续本局；已经结束的对局仍显示答案和记录。</p>
+<p class="source-note">数据参考 <a href="https://github.com/mcbookshelf/mcdata" target="_blank" rel="noreferrer">游戏提取属性</a>、<a href="https://github.com/misode/mcmeta" target="_blank" rel="noreferrer">注册表历史</a>及 <a href="https://minecraft.wiki/w/Block" target="_blank" rel="noreferrer">Minecraft Wiki</a>，以游戏中的类别汇总属性为准。</p>
+</div></dialog>
+
+<dialog id="library-dialog" aria-labelledby="library-title"><div class="dialog-head"><h2 id="library-title">方块图鉴</h2><button class="close-button" data-close aria-label="关闭图鉴">×</button></div><p class="dialog-sub">浏览全部方块分类及属性，游戏进行中不可查看。</p><input id="library-search" class="library-search" type="search" aria-label="搜索图鉴" placeholder="搜索名称、英文 ID 或变体名称" autocomplete="off" maxlength="80"><div id="library-grid" class="library-grid"></div><p id="library-empty" hidden>未找到相关方块，请试试其他名称。</p><div class="library-pagination"><span id="library-count" role="status"></span><div><button id="library-prev" class="quiet" type="button">上一页</button><button id="library-next" class="quiet" type="button">下一页</button></div></div></dialog>
+<dialog id="end-dialog" aria-labelledby="end-dialog-title"><div class="dialog-head"><h2 id="end-dialog-title">结束本局并查看答案？</h2><button class="close-button" data-close aria-label="关闭">×</button></div><p>确认后将揭晓目标方块，本局不能再提交猜测。已有记录会保留，游戏将停止；再次游玩需点击“开始游戏”。</p><div class="dialog-actions"><button class="quiet" data-close>继续猜测</button><button class="primary" id="confirm-end">结束并揭晓</button></div></dialog>
+<script src="data.js"></script><script src="version-groups.js"></script><script src="core.js"></script><script src="catalog.js"></script><script src="block-images.js"></script><script src="app.js"></script>
+</body></html>

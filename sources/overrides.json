@@ -1,0 +1,423 @@
+{
+  "spruce_button": {
+    "version": "17w47a"
+  },
+  "spruce_pressure_plate": {
+    "version": "17w47a"
+  },
+  "spruce_trapdoor": {
+    "version": "17w47a"
+  },
+  "spruce_fence": {
+    "version": "14w32b"
+  },
+  "birch_button": {
+    "version": "17w47a"
+  },
+  "birch_pressure_plate": {
+    "version": "17w47a"
+  },
+  "birch_trapdoor": {
+    "version": "17w47a"
+  },
+  "birch_fence": {
+    "version": "14w32b"
+  },
+  "jungle_button": {
+    "version": "17w47a"
+  },
+  "jungle_pressure_plate": {
+    "version": "17w47a"
+  },
+  "jungle_trapdoor": {
+    "version": "17w47a"
+  },
+  "jungle_fence": {
+    "version": "14w32b"
+  },
+  "acacia_button": {
+    "version": "17w47a"
+  },
+  "acacia_pressure_plate": {
+    "version": "17w47a"
+  },
+  "acacia_trapdoor": {
+    "version": "17w47a"
+  },
+  "acacia_fence": {
+    "version": "14w32b"
+  },
+  "dark_oak_button": {
+    "version": "17w47a"
+  },
+  "dark_oak_pressure_plate": {
+    "version": "17w47a"
+  },
+  "dark_oak_trapdoor": {
+    "version": "17w47a"
+  },
+  "dark_oak_fence": {
+    "version": "14w32b"
+  },
+  "acacia_planks": {
+    "version": "13w43a"
+  },
+  "dark_oak_planks": {
+    "version": "13w43a"
+  },
+  "oak_sign": {
+    "version": "Infdev 20100607"
+  },
+  "oak_wall_sign": {
+    "version": "Infdev 20100607"
+  },
+  "attached_melon_stem": {
+    "version": "Beta 1.8 Pre-release"
+  },
+  "attached_pumpkin_stem": {
+    "version": "Beta 1.8 Pre-release"
+  },
+  "stone_bricks": {
+    "version": "Beta 1.8 Pre-release"
+  },
+  "cobweb": {
+    "version": "Beta 1.5"
+  },
+  "cobblestone": {
+    "version": "rd-20090515"
+  },
+  "smooth_stone": {
+    "version": "13w04a"
+  },
+  "dead_brain_coral_block": {
+    "version": "18w10b"
+  },
+  "dead_bubble_coral_block": {
+    "version": "18w10b"
+  },
+  "dead_fire_coral_block": {
+    "version": "18w10b"
+  },
+  "dead_horn_coral_block": {
+    "version": "18w10b"
+  },
+  "dead_tube_coral_block": {
+    "version": "18w10b"
+  },
+  "chiseled_sandstone": {
+    "version": "1.2.4"
+  },
+  "cut_sandstone": {
+    "version": "1.2.4"
+  },
+  "cauldron": {
+    "version": "Beta 1.9 Prerelease 3"
+  },
+  "water_cauldron": {
+    "version": "Beta 1.9 Prerelease 3"
+  },
+  "cocoa": {
+    "version": "12w19a"
+  },
+  "wheat": {
+    "version": "Indev 20100206-2034"
+  },
+  "tripwire": {
+    "version": "12w22a"
+  },
+  "infested_mossy_stone_bricks": {
+    "version": "13w36a",
+    "renewable": 1
+  },
+  "infested_cracked_stone_bricks": {
+    "version": "13w36a",
+    "renewable": 1
+  },
+  "infested_chiseled_stone_bricks": {
+    "version": "13w36a",
+    "renewable": 1
+  },
+  "potted_allium": {
+    "version": "13w36a"
+  },
+  "potted_azure_bluet": {
+    "version": "13w36a"
+  },
+  "potted_blue_orchid": {
+    "version": "13w36a"
+  },
+  "potted_orange_tulip": {
+    "version": "13w36a"
+  },
+  "potted_oxeye_daisy": {
+    "version": "13w36a"
+  },
+  "potted_pink_tulip": {
+    "version": "13w36a"
+  },
+  "potted_red_tulip": {
+    "version": "13w36a"
+  },
+  "potted_white_tulip": {
+    "version": "13w36a"
+  },
+  "potted_acacia_sapling": {
+    "version": "13w43a"
+  },
+  "potted_dark_oak_sapling": {
+    "version": "13w43a"
+  },
+  "potted_bamboo": {
+    "version": "18w43a"
+  },
+  "potted_cornflower": {
+    "version": "18w43a"
+  },
+  "potted_lily_of_the_valley": {
+    "version": "18w43a"
+  },
+  "potted_wither_rose": {
+    "version": "18w43a"
+  },
+  "beehive": {
+    "version": "19w34a"
+  },
+  "cave_vines": {
+    "version": "21w05a"
+  },
+  "cave_vines_plant": {
+    "version": "21w05a"
+  },
+  "flowering_azalea_leaves": {
+    "version": "21w05a"
+  },
+  "crimson_fungus": {
+    "version": "20w06a"
+  },
+  "warped_fungus": {
+    "version": "20w06a"
+  },
+  "soul_torch": {
+    "version": "20w06a"
+  },
+  "soul_wall_torch": {
+    "version": "20w06a"
+  },
+  "soul_lantern": {
+    "version": "20w06a"
+  },
+  "cherry_button": {
+    "version": "23w07a"
+  },
+  "cherry_door": {
+    "version": "23w07a"
+  },
+  "cherry_fence": {
+    "version": "23w07a"
+  },
+  "cherry_fence_gate": {
+    "version": "23w07a"
+  },
+  "cherry_hanging_sign": {
+    "version": "23w07a"
+  },
+  "cherry_leaves": {
+    "version": "23w07a"
+  },
+  "cherry_log": {
+    "version": "23w07a"
+  },
+  "cherry_planks": {
+    "version": "23w07a"
+  },
+  "cherry_pressure_plate": {
+    "version": "23w07a"
+  },
+  "cherry_sapling": {
+    "version": "23w07a"
+  },
+  "cherry_shelf": {
+    "version": "23w07a"
+  },
+  "cherry_sign": {
+    "version": "23w07a"
+  },
+  "cherry_slab": {
+    "version": "23w07a"
+  },
+  "cherry_stairs": {
+    "version": "23w07a"
+  },
+  "cherry_trapdoor": {
+    "version": "23w07a"
+  },
+  "cherry_wall_hanging_sign": {
+    "version": "23w07a"
+  },
+  "cherry_wall_sign": {
+    "version": "23w07a"
+  },
+  "cherry_wood": {
+    "version": "23w07a"
+  },
+  "decorated_pot": {
+    "version": "23w07a",
+    "renewable": 1
+  },
+  "pink_petals": {
+    "version": "23w07a"
+  },
+  "potted_cherry_sapling": {
+    "version": "23w07a"
+  },
+  "potted_torchflower": {
+    "version": "23w07a"
+  },
+  "stripped_cherry_log": {
+    "version": "23w07a"
+  },
+  "stripped_cherry_wood": {
+    "version": "23w07a"
+  },
+  "suspicious_sand": {
+    "version": "23w07a"
+  },
+  "torchflower": {
+    "version": "23w07a"
+  },
+  "torchflower_crop": {
+    "version": "23w07a"
+  },
+  "copper_block": {
+    "version": "20w45a"
+  },
+  "cut_copper": {
+    "version": "20w45a"
+  },
+  "cut_copper_slab": {
+    "version": "20w45a"
+  },
+  "cut_copper_stairs": {
+    "version": "20w45a"
+  },
+  "exposed_copper": {
+    "version": "20w45a"
+  },
+  "exposed_cut_copper": {
+    "version": "20w45a"
+  },
+  "exposed_cut_copper_slab": {
+    "version": "20w45a"
+  },
+  "exposed_cut_copper_stairs": {
+    "version": "20w45a"
+  },
+  "oxidized_copper": {
+    "version": "20w45a"
+  },
+  "oxidized_cut_copper": {
+    "version": "20w45a"
+  },
+  "oxidized_cut_copper_slab": {
+    "version": "20w45a"
+  },
+  "oxidized_cut_copper_stairs": {
+    "version": "20w45a"
+  },
+  "waxed_copper_block": {
+    "version": "20w45a"
+  },
+  "waxed_cut_copper": {
+    "version": "20w45a"
+  },
+  "waxed_cut_copper_slab": {
+    "version": "20w45a"
+  },
+  "waxed_cut_copper_stairs": {
+    "version": "20w45a"
+  },
+  "waxed_exposed_copper": {
+    "version": "20w45a"
+  },
+  "waxed_exposed_cut_copper": {
+    "version": "20w45a"
+  },
+  "waxed_exposed_cut_copper_slab": {
+    "version": "20w45a"
+  },
+  "waxed_exposed_cut_copper_stairs": {
+    "version": "20w45a"
+  },
+  "waxed_oxidized_copper": {
+    "version": "21w14a"
+  },
+  "waxed_oxidized_cut_copper": {
+    "version": "21w14a"
+  },
+  "waxed_oxidized_cut_copper_slab": {
+    "version": "21w14a"
+  },
+  "waxed_oxidized_cut_copper_stairs": {
+    "version": "21w14a"
+  },
+  "waxed_weathered_copper": {
+    "version": "20w45a"
+  },
+  "waxed_weathered_cut_copper": {
+    "version": "20w45a"
+  },
+  "waxed_weathered_cut_copper_slab": {
+    "version": "20w45a"
+  },
+  "waxed_weathered_cut_copper_stairs": {
+    "version": "20w45a"
+  },
+  "weathered_copper": {
+    "version": "20w45a"
+  },
+  "weathered_cut_copper": {
+    "version": "20w45a"
+  },
+  "weathered_cut_copper_slab": {
+    "version": "20w45a"
+  },
+  "weathered_cut_copper_stairs": {
+    "version": "20w45a"
+  },
+  "crimson_nylium": {
+    "renewable": 0
+  },
+  "warped_nylium": {
+    "renewable": 0
+  },
+  "netherrack": {
+    "renewable": 0
+  },
+  "sculk_shrieker": {
+    "renewable": 1
+  },
+  "infested_cobblestone": {
+    "renewable": 1
+  },
+  "infested_deepslate": {
+    "renewable": 0
+  },
+  "infested_stone": {
+    "renewable": 1
+  },
+  "infested_stone_bricks": {
+    "renewable": 1
+  },
+  "nether_portal": {
+    "renewable": 1
+  },
+  "end_portal": {
+    "renewable": 1
+  },
+  "end_gateway": {
+    "renewable": 0
+  },
+  "light": {
+    "renewable": 0
+  }
+}

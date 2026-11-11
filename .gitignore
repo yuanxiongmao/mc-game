@@ -1,0 +1,8 @@
+/.tools/
+/sites/
+/node_modules/
+/.openai/
+/.env
+/.env.*
+*.log
+/.browser-test-profile/
